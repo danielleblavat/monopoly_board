@@ -4,6 +4,7 @@
   width: 5%;
   padding: 10px;
   border:1px solid red;
+  visibility: hidden;
 }
 .column1 {
   float: left;
@@ -39,16 +40,23 @@
   border:1px solid yellow;
 }
 
-/*SIDE COLUMNS - RIGHT**/
-.column-right-1 {
+.bottom-column-middle {
+  float: left;
+  width: 7%;
+  padding: 10px;
+  border:1px solid yellow;
+}
+
+/*SIDE COLUMNS - LEFT**/
+.column-left-1 {
   float: left;
   width: 7%;
   padding: 10px;
   border:1px solid turquoise;
 }
 
-/*SIDE COLUMNS - LEFT*/
-.column-left-5 {
+/*SIDE COLUMNS - RIGHT*/
+.column-right-5 {
   float: left;
   width: 7%;
   padding: 10px;
